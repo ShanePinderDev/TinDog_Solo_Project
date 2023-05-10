@@ -1,0 +1,195 @@
+/* CSS resets */
+
+html {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+header,
+main,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+.nav-items-link,
+.logo {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
+  height: 100vh;
+  max-width: 31.25em;
+  margin: 0 auto;
+}
+
+header {
+  padding: 1.5em 1.188em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-person {
+  height: 34px;
+  width: 32.33px;
+}
+
+.icon-pawprint {
+  height: 42px;
+  width: 84px;
+}
+
+.icon-quote {
+  height: 34px;
+  width: 34px;
+}
+
+.profile-container {
+  position: relative;
+}
+
+.profile {
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 31.25em;
+  width: 95.5%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
+}
+
+.profile-text-container {
+  padding-left: 0.75em;
+  padding-bottom: 1.875em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.profile-header {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.125;
+  color: #f8f8f8;
+}
+
+.profile-text {
+  font-size: 1.5rem;
+  /* color: #b7b7b7; */
+  color: #f6f7fb;
+  line-height: 1.33;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  padding: 2.25em 0;
+  background-color: #f6f7fb;
+}
+
+/* .profile-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.btn {
+  height: 91.87px;
+  width: 91.87px;
+  border: none;
+  background-color: #fff;
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+
+.btn-nope:hover,
+.btn-nope:active {
+  background-color: #ffe7ef;
+  box-shadow: 0px 10px 20px #edd9df;
+}
+
+.btn-like:hover,
+.btn-like:active {
+  background-color: #dbfff4;
+  box-shadow: 0px 10px 20px #ccf1e6;
+}
+
+.nope-icon {
+  height: 30.88px;
+  width: 30.88px;
+}
+
+.like-icon {
+  height: 36px;
+  width: 40.86px;
+}
+
+.endgame-modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 31.25em;
+}
+.modal {
+  background-color: white;
+  padding: 1.25em;
+  border-radius: 10px;
+  width: 95.5%;
+  height: 25em;
+  line-height: 1.2;
+  box-shadow: 0px 0px 10px #cccccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  text-align: center;
+}
+
+.icon-container {
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  transform: rotate(-30deg);
+}
+
+.icon {
+  height: 100px;
+  width: 200px;
+}
